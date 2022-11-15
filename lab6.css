@@ -179,6 +179,11 @@ header .icons #menu-bar {
   #mtitle  #button {
       margin-bottom: 20px;
   }
+.begin{
+  background-color: black;
+  color: red;
+  font-size: 24px;
+}
 }
 @media only screen and (min-width: 800px) {
 }
