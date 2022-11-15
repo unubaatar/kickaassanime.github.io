@@ -151,3 +151,38 @@ header .icons #menu-bar {
   color: azure;
   font-size: 36px;
 }
+
+@media only screen and (max-width: 600px) {
+  #main {
+      flex-direction: column;
+  }
+  #content {
+      width: auto;
+  }
+  .rightbar {
+      width: auto;
+  }
+  #general {
+      width: auto;
+      height: 100%;
+      margin: 0;
+  }
+  #mtitle  {
+      width: 100vw;
+  }
+  #bgreen {
+      padding: 10px 15%;
+  }
+  #bred {
+      padding: 10px 15%;
+  }
+  #mtitle  #button {
+      margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 800px) {
+}
+@media only screen and (min-width: 900px) and (max-width: 1024px){
+}
+@media only screen and (min-width: 1360px){ 
+}
